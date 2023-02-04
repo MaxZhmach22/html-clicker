@@ -8,7 +8,12 @@ namespace Clicker
     {
         private EcsWorld _ecsWorld;
         private int _entityID;
-
+        
+        /// <summary>
+        /// Init player before start
+        /// </summary>
+        /// <param name="ecsWorld"> ecs world</param>
+        /// <param name="entity"> player's entity</param>
         public void Init(EcsWorld ecsWorld , int entity)
         {
             _ecsWorld = ecsWorld;
